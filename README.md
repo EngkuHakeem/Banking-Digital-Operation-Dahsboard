@@ -11,7 +11,7 @@ The solution leveraged **SQL-driven queries and Metabase visualizations**, suppo
 
 ## 🎯 Role & Responsibilities
 
-This project involved responsibilities aligned with the role of a **Business Analyst**, including:
+This project involved responsibilities including:
 
 - Conducting **requirement gathering sessions with operational stakeholders**
 - Identifying **key operational KPIs and reporting metrics**
@@ -175,8 +175,7 @@ This repository focuses on the **process, methodology, and business analysis app
 
 Potential enhancements include:
 
-- Integration with **real-time operational data pipelines**
-- Development of **Power BI or advanced BI dashboards**
+- Development of **advanced BI dashboards**
 - Automated KPI alerts for operational anomalies
 - Historical trend analysis for operational forecasting
 
