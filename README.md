@@ -9,7 +9,7 @@ The solution leveraged **SQL-driven queries and Metabase visualizations**, suppo
 
 ---
 
-## 🎯 Role & Responsibilities (Business Analyst Perspective)
+## 🎯 Role & Responsibilities
 
 This project involved responsibilities aligned with the role of a **Business Analyst**, including:
 
