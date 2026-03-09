@@ -139,7 +139,7 @@ Operational Dashboards for Monitoring
 The dashboard development followed a structured project timeline to manage deliverables and stakeholder reviews.
 
 ### Dashboard Development Timeline
-![Dashboard Gantt Chart](screenshots/GanttChart.png)
+![Dashboard Gantt Chart](screenshots/Timeline.png)
 
 ---
 ## 📋 Project Progress Tracking
