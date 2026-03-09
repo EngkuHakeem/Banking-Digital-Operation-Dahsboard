@@ -142,7 +142,14 @@ The dashboard development followed a structured project timeline to manage deliv
 ![Dashboard Gantt Chart](screenshots/DashboardGantt.png)
 
 ---
+## 📋 Project Progress Tracking
 
+Weekly updates and project discussions were documented to track progress and align stakeholders.
+
+### Confluence Project Updates
+![Confluence Updates](screenshots/ConfluenceUpdate.png)
+
+---
 ## 🧪 User Acceptance Testing (UAT)
 
 Before deployment, **User Acceptance Testing (UAT)** was conducted with operational stakeholders to ensure:
