@@ -139,7 +139,7 @@ Operational Dashboards for Monitoring
 The dashboard development followed a structured project timeline to manage deliverables and stakeholder reviews.
 
 ### Dashboard Development Timeline
-![Dashboard Gantt Chart](screenshots/DashboardGantt.png)
+![Dashboard Gantt Chart](screenshots/GanttChart.png)
 
 ---
 ## 📋 Project Progress Tracking
@@ -147,7 +147,7 @@ The dashboard development followed a structured project timeline to manage deliv
 Weekly updates and project discussions were documented to track progress and align stakeholders.
 
 ### Confluence Project Updates
-![Confluence Updates](screenshots/ConfluenceUpdate.png)
+![Confluence Updates](screenshots/Confluence.png)
 
 ---
 ## 🧪 User Acceptance Testing (UAT)
