@@ -9,6 +9,10 @@ The solution leveraged **SQL-driven queries and Metabase visualizations**, suppo
 
 ---
 
+### 📄 Project Report
+<a href="screenshots/IAP_FinalReport_2121807_EngkuHakeem .pd" target="_blank">View Report</a>
+---
+
 ## 🎯 Role & Responsibilities
 
 This project involved responsibilities including:
@@ -76,6 +80,45 @@ The dashboards provided a centralized view of operational data, enabling teams t
 According to the project documentation, the dashboards were developed through **requirement gathering, data preparation, SQL query development, validation, and deployment**, ensuring alignment with operational reporting needs. :contentReference[oaicite:0]{index=0}
 
 ---
+### 🧠 SQL Implementation
+
+SQL was used to extract and transform procurement and SOP data for dashboard visualization. Queries were written to retrieve data from uploaded tables, clean and structure the fields, and prepare them for analysis and charting.
+
+Aggregation functions such as COUNT and SUM were applied to monitor operational performance, while GROUP BY was used to categorize data based on business needs. In addition, WITH clauses (CTEs) were used in some queries to simplify logic and improve readability when handling intermediate transformations.
+
+These queries supported dashboards such as the Memo Register and SOP monitoring, helping to track status, workload distribution, and process efficiency.
+
+#### 📊 Memo Register Example
+
+SELECT 
+    "status",
+    COUNT(*) AS total_memo,
+    SUM("approval_amount") AS total_amount
+FROM "metabase_upload"."cdx_procurement_2026_procument_20260330013618"
+GROUP BY "status"
+ORDER BY total_memo DESC;
+WITH sop_summary AS (
+    SELECT 
+        "sop_category",
+        COUNT(*) AS total_records
+    FROM "metabase_upload"."cdx_sop_2026"
+    GROUP BY "sop_category"
+)
+
+
+#### 📊 SOP Example
+
+WITH sop_summary AS (
+    SELECT 
+        "sop_category",
+        COUNT(*) AS total_records
+    FROM "metabase_upload"."cdx_sop_2026"
+    GROUP BY "sop_category"
+)
+
+SELECT *
+FROM sop_summary
+ORDER BY total_records DESC;
 
 ## 🔄 Dashboard Development Workflow
 
@@ -163,11 +206,6 @@ Feedback from stakeholders was incorporated before final deployment.
 
 ---
 
-## 🔒 Project Report
-
-### 📄 Project Report
-<a href="screenshots/IAP_FinalReport_2121807_EngkuHakeem .pd" target="_blank">View Report</a>
----
 
 ## 🔮 Future Improvements
 
