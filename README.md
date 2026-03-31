@@ -9,10 +9,6 @@ The solution leveraged **SQL-driven queries and Metabase visualizations**, suppo
 
 ---
 
-### 📄 Project Report
-<a href="screenshots/IAP_FinalReport_2121807_EngkuHakeem .pd" target="_blank">View Report</a>
----
-
 ## 🎯 Role & Responsibilities
 
 This project involved responsibilities including:
