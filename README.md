@@ -163,12 +163,10 @@ Feedback from stakeholders was incorporated before final deployment.
 
 ---
 
-## 🔒 Data Privacy & Confidentiality
+## 🔒 Project Report
 
-Due to data sensitivity, **actual dashboard screenshots and internal reporting data cannot be shared publicly.**
-
-This repository focuses on the **process, methodology, and business analysis approach** used to design and implement the dashboards.
-
+### 📄 Project Report
+<a href="screenshots/report.pdf" target="_blank">View Report</a>
 ---
 
 ## 🔮 Future Improvements
